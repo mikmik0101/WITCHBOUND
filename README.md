@@ -214,5 +214,10 @@ Git and can be regenerated at any time.
 
 ## 7. Asset & licensing note
 
-All code, procedural generation, character art and audio in this repository were
-created for WITCHBOUND. No third-party asset packs are included.
+No third-party asset packs are bundled in this repository. All runtime visuals
+and audio are either generated procedurally in code or loaded from the project's
+own image files under `Assets/Resources` and `Assets/StreamingAssets`. Only
+standard Unity packages (UGUI, TextMeshPro, IDE integrations) are referenced, and
+those are resolved by the Package Manager rather than committed here.
+
+Add your own licence here before publishing the repository.
