@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe9ab8614f892ad0b35dc79962ef6c0, type: 3}
+  m_Name: Witch_Vespera
+  m_EditorClassIdentifier: Assembly-CSharp::WitchData
+  witchName: Jannak
+  description: The Crawling Witch - Low-to-ground ambush predator. Fast bursts, crawls through tight spaces, excels at surprise attacks.
+  prefab: {fileID: 0}
+  faceTexture: {fileID: 0}
+  moveSpeed: 4
+  chaseSpeed: 6.4
+  detectionRange: 18
+  fieldOfView: 80
+  hearingRange: 22
+  attackDamage: 16
+  attackCooldown: 1.0
+  witchType: 3
+  audioClips: []
+  vfxPrefab: {fileID: 0}
+  spawnThreshold: 6

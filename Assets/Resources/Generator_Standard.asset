@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12f17c7fee9fc3ed90941371332b06d, type: 3}
+  m_Name: Generator_Standard
+  m_EditorClassIdentifier: Assembly-CSharp::GeneratorData
+  generatorId: Gen_Standard
+  repairTime: 20
+  idleSound: {fileID: 0}
+  repairingSound: {fileID: 0}
+  completedSound: {fileID: 0}
+  interruptedSound: {fileID: 0}
+  vfxPrefab: {fileID: 0}

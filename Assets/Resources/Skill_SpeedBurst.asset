@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f25090412a3b34487d751c1f21de12, type: 3}
+  m_Name: Skill_SpeedBurst
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillName: Speed Burst
+  description: Massively increase movement speed for a short time. Great for escaping chases.
+  skillType: 2
+  cooldown: 10
+  duration: 4
+  maxLevel: 4
+  levelDurations:
+  - 4
+  - 5
+  - 6
+  - 7
+  levelCooldowns:
+  - 10
+  - 10
+  - 10
+  - 10
+  vfxPrefab: {fileID: 0}
+  activationSound: {fileID: 0}
+  loopSound: {fileID: 0}

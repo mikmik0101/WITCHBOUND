@@ -1,0 +1,86 @@
+# ---------------------------------------------------------------
+# WITCHBOUND — Unity .gitignore
+# Unity 6000.6.7f1
+# ---------------------------------------------------------------
+
+# --- Unity generated / regenerable ---------------------------------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset Store / package caches
+/Assets/AssetStoreTools*
+/Assets/Plugins/Editor/JetBrains*
+
+# --- IDE / generated project files ---------------------------------
+.vs/
+.idea/
+.vscode/settings.json.bak
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- OS junk --------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- Crash / temp / editor leftovers --------------------------------
+sysinfo.txt
+*.stackdump
+*.tmp
+*.temp
+*.bak
+*~
+crashlytics-build.properties
+
+# --- Local secrets — never commit -----------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+secrets.json
+credentials.json
+appsettings.local.json
+
+# --- This project: non-source / presentation material ---------------
+# Compiled standalone builds (large, regenerable via BuildGame)
+/Builds/
+/Builds_backup_*/
+# Presentation video project, exports, footage, narration
+/VideoPresentation/
+/Audio/
+# Historical source snapshots kept locally
+/Backups/
+
+# --- Build outputs --------------------------------------------------
+*.apk
+*.aab
+*.unitypackage
+*.app

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe9ab8614f892ad0b35dc79962ef6c0, type: 3}
+  m_Name: Witch_Evelyn
+  m_EditorClassIdentifier: Assembly-CSharp::WitchData
+  witchName: Beamoth
+  description: The Final Witch - Ultimate hunter. Fast, aggressive, high detection, resistant to abilities, persistent pursuit, unique supernatural effects.
+  prefab: {fileID: 0}
+  faceTexture: {fileID: 0}
+  moveSpeed: 5
+  chaseSpeed: 6.6
+  detectionRange: 50
+  fieldOfView: 130
+  hearingRange: 25
+  attackDamage: 22
+  attackCooldown: 1.0
+  witchType: 5
+  audioClips: []
+  vfxPrefab: {fileID: 0}
+  spawnThreshold: 10
